@@ -87,7 +87,7 @@
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xK2-P5-pQ4">
                             <rect key="frame" x="96" y="7" width="128" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Button"/>
+                            <state key="normal" title="AUTOS"/>
                             <connections>
                                 <action selector="BuyButtonPressed:" destination="QXv-uD-7ae" eventType="touchUpInside" id="zUh-aL-aET"/>
                             </connections>

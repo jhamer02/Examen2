@@ -57,7 +57,7 @@
 
 - (IBAction)BuyButtonPressed:(id)sender {
     
-    [self performSegueWithIdentifier:@"Start" sender:self];
+    //[self performSegueWithIdentifier:@"Start" sender:self];
     
 }
 
