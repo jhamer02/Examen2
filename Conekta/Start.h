@@ -11,7 +11,13 @@
 
 @interface Start : UIViewController<PayPalPaymentDelegate>
 
+@property NSString *productTitle;
+@property NSString *productPhoto;
 
+
+@property (strong, nonatomic) IBOutlet UIImageView *imgProduct;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblProduct;
 
 
 @end

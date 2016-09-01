@@ -7,11 +7,15 @@
 //
 
 #import "ProductMenu.h"
+#import "Start.h"
 
 @interface ProductMenu ()
 @property NSMutableArray *productTitle;
 @property NSMutableArray *productPhotos;
 @property NSMutableArray *productDescription;
+
+@property NSString *stPhotoselected;
+@property NSString *stProductselected;
 @end
 
 @implementation ProductMenu
@@ -63,9 +67,11 @@
 /*************************/
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     //print(NSLog(@"prepareForSegue"))
-    //if([segue.destinationViewController isKindOfClass:[AlertDetails class]]){
-        
-    //}
+    if([segue.destinationViewController isKindOfClass:[Start class]]){
+        Start *starter = [segue destinationViewController];
+        starter.productTitle = self.stProductselected;
+        starter.productPhoto = self.stPhotoselected;        
+    }
 }
 
 
@@ -104,6 +110,10 @@
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    self.stProductselected       = self.productTitle[indexPath.row];
+    self.stPhotoselected   = self.productPhotos[indexPath.row];
+    
+    [self performSegueWithIdentifier:@"Start" sender:self];
 }
 
 

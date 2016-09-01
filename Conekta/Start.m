@@ -41,7 +41,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.lblProduct.text = self.productTitle;
+    self.imgProduct.image = [UIImage imageNamed:self.productPhoto];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -56,9 +57,10 @@
     PayPalPayment *payment = [[PayPalPayment alloc] init];
     
     // Amount, currency, and description
-    payment.amount = [[NSDecimalNumber alloc] initWithString:@"120.00"];
+    payment.amount = [[NSDecimalNumber alloc] initWithString:@"420000.00"];
     payment.currencyCode = @"MXN";
-    payment.shortDescription = @"Camisa blanca";
+    //payment.shortDescription = @"Auto sedan";
+    payment.shortDescription = self.productTitle;
     
     // Use the intent property to indicate that this is a "sale" payment,
     // meaning combined Authorization + Capture.

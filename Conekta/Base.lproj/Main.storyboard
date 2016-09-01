@@ -28,7 +28,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="0BM-hp-Oc5">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw6.png" id="0BM-hp-Oc5">
                                 <rect key="frame" x="0.0" y="124" width="320" height="128"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -36,6 +36,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="kpl-vW-yHC"/>
+                    <connections>
+                        <outlet property="imgProduct" destination="0BM-hp-Oc5" id="T12-38-fPt"/>
+                        <outlet property="lblProduct" destination="jxj-iU-B1S" id="txu-sE-WKm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -98,4 +102,7 @@
             <point key="canvasLocation" x="278" y="887"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bmw6.png" width="535" height="400"/>
+    </resources>
 </document>
