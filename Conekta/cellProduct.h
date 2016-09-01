@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface cellProduct : UITableViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *imgProduct;
+@property (strong, nonatomic) IBOutlet UILabel *lblProduct;
 
 @end

@@ -9,7 +9,9 @@
 #import "ProductMenu.h"
 
 @interface ProductMenu ()
-@property NSMutableArray *productArray;
+@property NSMutableArray *productTitle;
+@property NSMutableArray *productPhotos;
+@property NSMutableArray *productDescription;
 @end
 
 @implementation ProductMenu
@@ -31,8 +33,11 @@
 }
 
 - (void)initController {
-    self.productArray   = [[NSMutableArray alloc] initWithObjects: @"jetta", @"ibiza", @"chevy", @"jeep", @"bora", @"mustang", @"mustang", @"ferrari", @"BMW serie 1", @"BMW serie 2", nil];
+    self.productTitle   = [[NSMutableArray alloc] initWithObjects: @"bmw6", @"camaro", @"cruze", @"forte", @"jac", @"jetta", @"mazda3", @"panamera", @"passat", @"tyler", nil];
     
+    self.productPhotos   = [[NSMutableArray alloc] initWithObjects: @"bmw6.png", @"camaro.png", @"cruze.png", @"forte.png", @"jac.png", @"jetta.png", @"mazda3.png", @"panamera.png", @"passat.png", @"tyler.png", nil];
+    
+    self.productDescription   = [[NSMutableArray alloc] initWithObjects: @"$100,000", @"$200,000", @"$300,000", @"$400,000", @"$500,000", @"$600,000", @"$700,000", @"$800,000", @"$900,000", @"$900,000", nil];
     //self.avengerImgs   = [[NSMutableArray alloc] initWithObjects: @"captain.png", @"ironman.png", @"blackwidow.png", @"hulk.png", @"thor.png", @"spiderman.png", nil];
 }
 
@@ -75,7 +80,7 @@
 }
 //-------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.productArray.count;
+    return self.productTitle.count;
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -91,8 +96,8 @@
         cell = [tableView dequeueReusableCellWithIdentifier:@"cellProduct"];
     }
     //Fill cell with info from arrays
-    //cell.lblName.text       = self.avengerNames[indexPath.row];
-    //cell.imgAvenger.image   = [UIImage imageNamed:self.avengerImgs[indexPath.row]];
+    cell.lblProduct.text       = self.productTitle[indexPath.row];
+    cell.imgProduct.image   = [UIImage imageNamed:self.productPhotos[indexPath.row]];
     
     return cell;
 }
