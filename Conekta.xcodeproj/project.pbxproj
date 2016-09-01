@@ -19,6 +19,16 @@
 		E4C85F4B1D77E4B000B53458 /* ProductMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85F4A1D77E4B000B53458 /* ProductMenu.m */; };
 		E4C85F501D77F21600B53458 /* cellProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85F4E1D77F21600B53458 /* cellProduct.m */; };
 		E4C85F511D77F21600B53458 /* cellProduct.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F4F1D77F21600B53458 /* cellProduct.xib */; };
+		E4C85F5D1D77FFB800B53458 /* bmw6.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F531D77FFB800B53458 /* bmw6.png */; };
+		E4C85F5E1D77FFB800B53458 /* camaro.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F541D77FFB800B53458 /* camaro.png */; };
+		E4C85F5F1D77FFB800B53458 /* cruze.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F551D77FFB800B53458 /* cruze.png */; };
+		E4C85F601D77FFB800B53458 /* forte.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F561D77FFB800B53458 /* forte.png */; };
+		E4C85F611D77FFB800B53458 /* jac.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F571D77FFB800B53458 /* jac.png */; };
+		E4C85F621D77FFB800B53458 /* jetta.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F581D77FFB800B53458 /* jetta.png */; };
+		E4C85F631D77FFB800B53458 /* mazda3.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F591D77FFB800B53458 /* mazda3.png */; };
+		E4C85F641D77FFB800B53458 /* panamera.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F5A1D77FFB800B53458 /* panamera.png */; };
+		E4C85F651D77FFB800B53458 /* passat.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F5B1D77FFB800B53458 /* passat.png */; };
+		E4C85F661D77FFB800B53458 /* tyler.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C85F5C1D77FFB800B53458 /* tyler.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +52,16 @@
 		E4C85F4D1D77F21600B53458 /* cellProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellProduct.h; sourceTree = "<group>"; };
 		E4C85F4E1D77F21600B53458 /* cellProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellProduct.m; sourceTree = "<group>"; };
 		E4C85F4F1D77F21600B53458 /* cellProduct.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellProduct.xib; sourceTree = "<group>"; };
+		E4C85F531D77FFB800B53458 /* bmw6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw6.png; sourceTree = "<group>"; };
+		E4C85F541D77FFB800B53458 /* camaro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camaro.png; sourceTree = "<group>"; };
+		E4C85F551D77FFB800B53458 /* cruze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cruze.png; sourceTree = "<group>"; };
+		E4C85F561D77FFB800B53458 /* forte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forte.png; sourceTree = "<group>"; };
+		E4C85F571D77FFB800B53458 /* jac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jac.png; sourceTree = "<group>"; };
+		E4C85F581D77FFB800B53458 /* jetta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jetta.png; sourceTree = "<group>"; };
+		E4C85F591D77FFB800B53458 /* mazda3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mazda3.png; sourceTree = "<group>"; };
+		E4C85F5A1D77FFB800B53458 /* panamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panamera.png; sourceTree = "<group>"; };
+		E4C85F5B1D77FFB800B53458 /* passat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passat.png; sourceTree = "<group>"; };
+		E4C85F5C1D77FFB800B53458 /* tyler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tyler.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,7 @@
 				E4C85F431D77A55400B53458 /* Main */,
 				E4C85F441D77A55B00B53458 /* Controllers */,
 				E4C85F4C1D77F1CD00B53458 /* Cells */,
+				E4C85F521D77FFB800B53458 /* imgs */,
 				E4C85F321D77A54200B53458 /* Main.storyboard */,
 				E4C85F381D77A54200B53458 /* Assets.xcassets */,
 				E4C85F3A1D77A54200B53458 /* LaunchScreen.storyboard */,
@@ -144,6 +165,23 @@
 				E4C85F4F1D77F21600B53458 /* cellProduct.xib */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		E4C85F521D77FFB800B53458 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				E4C85F531D77FFB800B53458 /* bmw6.png */,
+				E4C85F541D77FFB800B53458 /* camaro.png */,
+				E4C85F551D77FFB800B53458 /* cruze.png */,
+				E4C85F561D77FFB800B53458 /* forte.png */,
+				E4C85F571D77FFB800B53458 /* jac.png */,
+				E4C85F581D77FFB800B53458 /* jetta.png */,
+				E4C85F591D77FFB800B53458 /* mazda3.png */,
+				E4C85F5A1D77FFB800B53458 /* panamera.png */,
+				E4C85F5B1D77FFB800B53458 /* passat.png */,
+				E4C85F5C1D77FFB800B53458 /* tyler.png */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +247,19 @@
 			files = (
 				E4C85F3C1D77A54200B53458 /* LaunchScreen.storyboard in Resources */,
 				E4C85F511D77F21600B53458 /* cellProduct.xib in Resources */,
+				E4C85F621D77FFB800B53458 /* jetta.png in Resources */,
 				E4C85F391D77A54200B53458 /* Assets.xcassets in Resources */,
+				E4C85F641D77FFB800B53458 /* panamera.png in Resources */,
+				E4C85F601D77FFB800B53458 /* forte.png in Resources */,
+				E4C85F611D77FFB800B53458 /* jac.png in Resources */,
 				E4C85F481D77AADC00B53458 /* Podfile in Resources */,
+				E4C85F661D77FFB800B53458 /* tyler.png in Resources */,
 				E4C85F341D77A54200B53458 /* Main.storyboard in Resources */,
+				E4C85F5F1D77FFB800B53458 /* cruze.png in Resources */,
+				E4C85F631D77FFB800B53458 /* mazda3.png in Resources */,
+				E4C85F651D77FFB800B53458 /* passat.png in Resources */,
+				E4C85F5D1D77FFB800B53458 /* bmw6.png in Resources */,
+				E4C85F5E1D77FFB800B53458 /* camaro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
